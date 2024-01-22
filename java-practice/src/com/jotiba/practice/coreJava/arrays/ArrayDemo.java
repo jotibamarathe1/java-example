@@ -1,4 +1,4 @@
-package com.jotiba.practice.basicJava.arrays;
+package com.jotiba.practice.coreJava.arrays;
 
 public class ArrayDemo {
     public static void main(String[] args) {

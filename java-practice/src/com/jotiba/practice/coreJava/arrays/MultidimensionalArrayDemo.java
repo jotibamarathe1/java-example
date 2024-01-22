@@ -1,4 +1,4 @@
-package com.jotiba.practice.basicJava.arrays;
+package com.jotiba.practice.coreJava.arrays;
 
 public class MultidimensionalArrayDemo {
     public static void main(String[] args) {
