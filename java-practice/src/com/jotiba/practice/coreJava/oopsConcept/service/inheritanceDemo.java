@@ -21,9 +21,9 @@ public class inheritanceDemo {
         String employeeDepartment = scanner.nextLine();
 
         System.out.println("Please Enter Employee Salary");
-        int employeeSalary = scanner.nextInt();
+        String employeeSalary = scanner.nextLine();
 
-        System.out.println("Please enter Employee working language");
+        System.out.println("Please Enter Employee working language");
         String workingLanguage = scanner.nextLine();
 
         Programmer programmer = new Programmer();
@@ -33,7 +33,7 @@ public class inheritanceDemo {
         programmer.setAddress(address);
         programmer.employeeId = Integer.parseInt(employeeId);
         programmer.employeeDepartment = employeeDepartment;
-        programmer.employeeSalary = employeeSalary;
+        programmer.employeeSalary = Integer.parseInt(employeeSalary);
         programmer.workingLanguage = workingLanguage;
 
         System.out.println(programmer);
