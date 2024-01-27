@@ -5,7 +5,7 @@ class Student1{
 	int rollNumber;
 }
 
-public class Example2 {
+public class ClassesAndObjects2 {
     public static void main(String args[]) {
 	Student1 s1 = new Student1();
 	s1.name="s1";
