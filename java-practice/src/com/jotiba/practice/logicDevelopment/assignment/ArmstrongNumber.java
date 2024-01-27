@@ -1,6 +1,8 @@
 package com.jotiba.practice.logicDevelopment.assignment;
 import java.util.Scanner;
 public class ArmstrongNumber {
+    //write a program to print Armstrong numbers between the given range.
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter a range");
