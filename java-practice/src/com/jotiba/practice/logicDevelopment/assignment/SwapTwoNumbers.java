@@ -5,6 +5,7 @@ public class SwapTwoNumbers {
     int no2 = 0;
     int temp = 0;
 
+    //Swapping with temporary variable
     public void SwapWithTemp(int no1, int no2){
         System.out.println("Numbers before swapping: " + "\nno1 = " + no1 + "\nno2 = " + no2);
         temp = no1;
@@ -12,7 +13,7 @@ public class SwapTwoNumbers {
         no2 = temp;
         System.out.println("\nNumbers after swapping: " + "\nno1 = " + no1 + "\nno2 = " + no2);
     }
-
+    //Swapping without temporary variable
     public void SwapWithoutTemp(int no1, int no2){
         System.out.println("Numbers before swapping: " + "\nno1 = " + no1 + "\nno2 = " + no2);
         no1 = no1 + no2;
