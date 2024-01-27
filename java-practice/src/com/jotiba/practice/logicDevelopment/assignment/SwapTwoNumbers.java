@@ -2,6 +2,7 @@ package com.jotiba.practice.logicDevelopment.assignment;
 import java.util.Scanner;
 public class SwapTwoNumbers {
     //write a program to swap two numbers.
+
     int no1 = 0;
     int no2 = 0;
     int temp = 0;
