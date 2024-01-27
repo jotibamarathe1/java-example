@@ -29,13 +29,8 @@ public class MultidimensionalArrayDemo {
         System.out.println("Demo of while loop:");
         int i = 0;
         while (i < marks.length) {
+            System.out.println(marks[i]);
             i++;
-            int j = 0;
-            while (j < marks.length) {
-                j++;
-                System.out.print(marks[i][j] + "\t");
-                  }
-          System.out.println();
             }
 
         //for loop demo for array
