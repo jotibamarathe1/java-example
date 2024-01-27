@@ -5,7 +5,7 @@ public class FibonacciSeries {
     //write a program to display first n terms of fibonacci series.
 
     int number = 0;
-    public void PrintSeries(int number) {
+    public void printSeries(int number) {
 
         int n1=0;
         int n2=1;
@@ -25,8 +25,8 @@ public class FibonacciSeries {
         Scanner sc = new Scanner(System.in);
         String input = sc.nextLine();
 
-        FibonacciSeries evenOrOdd = new FibonacciSeries();
+        FibonacciSeries fibonacciSeries = new FibonacciSeries();
         int number = Integer.valueOf(input);
-        evenOrOdd.PrintSeries(number);
+        fibonacciSeries.printSeries(number);
     }
 }
