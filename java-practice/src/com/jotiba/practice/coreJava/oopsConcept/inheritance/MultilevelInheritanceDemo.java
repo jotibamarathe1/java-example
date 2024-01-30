@@ -1,29 +1,28 @@
 package inheritance;
 
-class Car{
-	  public void vehicleType(){
-      System.out.println("Vehicle Type is Car");
-  }
+class Electronics {
+    public void deviceType() {
+       System.out.println("Device Type is Electronics");
+    }
+ }
+
+class Television extends Electronics {
+    public void category() {
+       System.out.println("Device category is Television");
+   }
 }
 
-class Maruti extends Car{
-  public void speed(){
-      System.out.println("Top speed is 90Kmph");
-  }
+class LED extends Television {
+   public void displayTech() {
+      System.out.println("Display Technology is LED");
+   }
 }
 
-class Maruti800 extends Maruti{
-  public void model(){
-      System.out.println("Model name is Maruti 800");
-  }
-}
 public class MultilevelInheritanceDemo {
-	 public static void main(String args[]){
-	        Maruti800 obj=new Maruti800();
-	        obj.vehicleType();
-	        obj.speed();
-	        obj.model();
-
-	    }
-
+	public static void main(String[] args) {
+		LED led = new LED();
+		led.deviceType();
+		led.category();
+		led.displayTech();
+		}
 }
