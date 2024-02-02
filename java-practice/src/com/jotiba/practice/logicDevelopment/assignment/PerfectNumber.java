@@ -8,7 +8,6 @@ public class PerfectNumber {
     //Proper Divisors of 6 are 1, 2 and 3.
     //Sum = 1+2+3 = 6 = 6
     //⇒ 6 is a perfect number
-    
         static boolean isPerfectNumber(int number){
             if(number==1)
                 return false;
