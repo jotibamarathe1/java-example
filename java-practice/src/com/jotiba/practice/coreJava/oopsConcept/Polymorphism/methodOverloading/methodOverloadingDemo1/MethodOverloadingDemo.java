@@ -4,16 +4,16 @@ package overloading;
 public class MethodOverloadingDemo {
 public static void main(String args[]) {
 	Addition a = new Addition();
-	int r1 = a.sum(4, 8);
-	System.out.println(r1);
+	int result1 = a.sum(4, 8);
+	System.out.println(result1);
 	
-	int r2 = a.sum(4, 8, 7);
-	System.out.println(r2);
+	int result2 = a.sum(4, 8, 7);
+	System.out.println(result2);
 	
-	double r3 = a.sum(4, 8, 7.2);
-	System.out.println(r3);
+	double result3 = a.sum(4, 8, 7.2);
+	System.out.println(result3);
 	
-	double r4 = a.sum(4.8, 8, 7);
-	System.out.println(r4);
+	double result4 = a.sum(4.8, 8, 7);
+	System.out.println(result4);
 }
 }
