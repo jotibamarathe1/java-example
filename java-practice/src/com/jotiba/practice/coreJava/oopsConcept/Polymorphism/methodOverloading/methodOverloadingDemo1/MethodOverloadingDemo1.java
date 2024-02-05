@@ -1,7 +1,7 @@
 package overloading;
 
 
-public class MethodOverloadingDemo {
+public class MethodOverloadingDemo1 {
 public static void main(String args[]) {
 	Addition a = new Addition();
 	int result1 = a.sum(4, 8);
