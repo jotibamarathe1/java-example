@@ -1,14 +1,13 @@
 package interfaces;
-//interface don't have constructor
 
 interface Printable{
-	 void print();//its a by default public and abstract method
+	 void print();
 }
 
 class Article implements Printable{
 
 	@Override
-	public void print() {//but we have to mention public here 
+	public void print() {
 		System.err.println("printing");
 		}
 }
